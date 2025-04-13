@@ -1,0 +1,8 @@
+/* Fuente de Google */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Noto Serif JP', serif;
+    padding: 0;
+  }
