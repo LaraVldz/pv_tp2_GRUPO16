@@ -6,6 +6,7 @@ body {
     font-family: 'Noto Serif JP', serif;
     padding: 0;
   }
+
 /* estilo css ejercicio 21 */
 .ejercicio21 {
   font-family: Arial, sans-serif;
@@ -80,4 +81,30 @@ input[type="text"] {
   border-radius: 5px;
   background-color: #f2f2f2;
   transition: background-color 0.3s ease;
+}
+  /* Ejercicio 24 */
+.cambiar-color-fondo {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.titulo {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.boton-cambiar-color {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.boton-cambiar-color:hover {
+  background-color: #666;
 }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Construir una página utilizando Html, Css y JavaScript que contenga dos listas 
+    desplegables (<select>): 
+    La primera lista debe contener una selección de países de América. 
+    La segunda lista debe contener las capitales correspondientes a esos países. 
+    Al seleccionar un país en la primera lista, la capital correspondiente debe seleccionarse 
+    automáticamente en la segunda lista, usando JavaScript. 
+    El comportamiento debe implementarse con JavaScript utilizando el evento change. 
+    Incluir al menos 6 países y sus capitales. 
+    Mostrar un mensaje en consola indicando qué país y capital están seleccionados.-->
+    <title>Ejercicio 20</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        select {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selección de Países y Capitales</h1>
+
+    <label for="pais">País:</label>
+    <select id="pais">
+        <option value="">-- Selecciona un país --</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Chile">Chile</option>
+        <option value="Colombia">Colombia</option>
+        <option value="México">México</option>
+        <option value="Perú">Perú</option>
+    </select>
+
+    <label for="capital">Capital:</label>
+    <select id="capital" disabled>
+        <option value="">-- Capital --</option>
+    </select>
+    <script type="module" src="../js/ejercicio20.js"></script>
+</body>
+</html>
