@@ -5,7 +5,7 @@ alert también.
 Invocar la función y enviar los argumentos con diferentes números para probar.*/
 
 function calcularMayor(numero1, numero2) {
-    // Paso 2: Comparar los números
+    
     if (numero1 > numero2) {
         alert(numero1 + " es mayor que " + numero2);
     } else if (numero2 > numero1) {
