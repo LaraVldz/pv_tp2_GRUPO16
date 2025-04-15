@@ -6,3 +6,78 @@ body {
     font-family: 'Noto Serif JP', serif;
     padding: 0;
   }
+/* estilo css ejercicio 21 */
+.ejercicio21 {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.contenedor {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#salida {
+  font-size: 18px;
+  color: #444;
+  min-height: 24px;
+}
+/* Estilo css ejercicio 22 */
+.ejercicio22 {
+  background-color: antiquewhite;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.casilla {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+#resultado {
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+}
