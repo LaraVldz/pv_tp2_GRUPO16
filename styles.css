@@ -6,7 +6,6 @@ body {
     font-family: 'Noto Serif JP', serif;
     padding: 0;
   }
-
 /* estilo css ejercicio 21 */
 .ejercicio21 {
   font-family: Arial, sans-serif;
@@ -82,6 +81,112 @@ input[type="text"] {
   background-color: #f2f2f2;
   transition: background-color 0.3s ease;
 }
+/*index*/
+h1{
+  color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+}
+
+.subtitulo{
+  color: #3498db;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.3rem;
+}
+.lista-ejercicios {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.ejercicio-link {
+  display: block;
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ejercicio-link:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 600px) {
+  .lista-ejercicios {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+  /*EJERCICIOS 18 Y 19*/
+/* Contenedor (para los ejercicios 18 y 19) */
+.contenedor-ej18,
+.contenedor-ej19
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+/* Párrafo (para 18, y similar para otros) */
+.parrafo18 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* Botón (para todos) */
+.boton18,
+#botonEnviar /* Para ejercicio 19 */ {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.boton18:hover,
+#botonEnviar:hover {
+    background-color: #2980b9;
+}
+
+/* Para inputs y selects */
+input,
+select {
+    padding: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: 'Noto Serif JP', serif;
+    width: 200px; /* Tamaño consistente */
+}
+
   /* Ejercicio 24 */
 .cambiar-color-fondo {
   font-family: Arial, sans-serif;
@@ -108,3 +213,4 @@ input[type="text"] {
 .boton-cambiar-color:hover {
   background-color: #666;
 }
+
